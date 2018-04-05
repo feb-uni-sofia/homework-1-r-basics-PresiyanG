@@ -6,6 +6,9 @@ xmax <-c(25.0, 22.8, 31.2, 27.3, 28.4, 20.2, 24.1)
 xmax - xmin
 
 #c
+
+## Use the 'mean' function.
+
 totalMax <- sum(xmax)
 totalMin <- sum(xmin)
 avgMax <- totalMax/length(xmax)
